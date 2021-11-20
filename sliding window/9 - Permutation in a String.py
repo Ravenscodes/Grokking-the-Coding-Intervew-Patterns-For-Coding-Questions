@@ -50,7 +50,7 @@ def find_permutation(str1, pattern):
             character_map[str1[window_end]] += 1
             if character_map == pattern_map:
                 return True
-            if character_map[str1[window_end]] > pattern_map[str1[window_end]]:
+            while character_map[str1[window_end]] > pattern_map[str1[window_end]]:
                 character_map[str1[window_start]] -= 1
                 window_start += 1
     return False
