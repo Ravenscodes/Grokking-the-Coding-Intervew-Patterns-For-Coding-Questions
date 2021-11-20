@@ -27,7 +27,9 @@ def length_of_longest_substring(str1, k):
             frequency_map[right_char] = 0
         frequency_map[right_char] += 1
         max_repeat_letter_count = max(
-            max_repeat_letter_count, frequency_map[right_char])
+            max_repeat_letter_count,
+            frequency_map[right_char]
+        )
 
         # Current window size is from window_start to window_end, overall we have a letter which is
         # repeating 'max_repeat_letter_count' times, this means we can have a window which has one letter
