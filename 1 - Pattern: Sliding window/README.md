@@ -2,7 +2,7 @@ Pattern:  Sliding Window
 -
 ### 1 - Average of subaaray
 Given an array, find the average of all contiguous subarrays of size ‘K’ in it.
-#2 - Maximum Sum Subarray of Size K
+### 2 - Maximum Sum Subarray of Size K
 Given an array of positive numbers and a positive number ‘k,’ find the maximum sum of any contiguous subarray of size ‘k’.
 ### 3 - Smallest Subarray with a given sum
 Given an array of positive numbers and a positive number ‘S,’ find the length of the smallest contiguous subarray whose sum is greater than or equal to ‘S’. Return 0 if no such subarray exists.
