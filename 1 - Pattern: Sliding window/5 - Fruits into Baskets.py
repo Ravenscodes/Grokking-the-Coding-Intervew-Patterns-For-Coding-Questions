@@ -29,7 +29,7 @@ def fruits_into_baskets(fruits):
             fruit_frequency[right_fruit] = 0
         fruit_frequency[right_fruit] += 1
 
-        # shrink the sliding window, until we are left with '2' fruits in the fruit frequency dictionary
+        # shrink the  Sliding window, until we are left with '2' fruits in the fruit frequency dictionary
         while len(fruit_frequency) > 2:
             left_fruit = fruits[window_start]
             fruit_frequency[left_fruit] -= 1
